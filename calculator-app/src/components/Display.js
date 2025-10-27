@@ -15,15 +15,7 @@ export default function Display({ expression = '', result = null }) {
       }}>
         {expression || '0'}
       </div>
-      <div style={{
-        minHeight: 28,
-        textAlign: 'right',
-        fontSize: 16,
-        color: '#fffdfdff',
-        padding: '4px 8px'
-      }}>
-        {result !== null ? String(result) : ''}
-      </div>
+      
     </div>
   );
 }
